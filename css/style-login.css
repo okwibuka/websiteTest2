@@ -1,0 +1,109 @@
+ *
+ {
+     padding: 0;
+     margin: 0;
+     box-sizing: inherit;
+ }
+ body
+ {
+     background: linear-gradient(to right , white,grey,whitesmoke);
+ }
+ .container
+ {
+     text-align: center;
+     width: 70%;
+     height: auto;
+     margin-left: 16%;
+     padding: 8px;
+     margin-top: 2em;
+ }
+ .head
+ {
+     background-color: whitesmoke;
+     padding: 8px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 7px;
+    height: auto;
+    
+ }
+ label{
+     font-size: 20px;
+ }
+ h2{
+    padding-top: 10px;
+    margin-bottom: 7px;
+    color: rgb(150, 142, 157);
+ }
+ .text
+ {
+     padding: 7px;
+     border: none;
+     border-radius: 3px;
+     border-style: inset;
+ }
+
+ .btn-text
+ {
+    border-style: none;
+    width: 13em;
+    background-image: linear-gradient(to top left, #39b385, #9be15d);
+    border-radius: 10px;
+    cursor: pointer;
+ }
+
+ span
+ {
+    color: black; 
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bolder;
+ }
+ .create
+ {
+     background-color: whitesmoke;
+     padding: 10px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 7px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 12px;
+    justify-content: space-between;
+ }
+ h3{
+     margin-left: 2em;
+     font-size: 20px;
+     text-transform: capitalize;
+ }
+ a{
+     margin-right: 2em;
+     font-size: 20px;
+ }
+ .lists{
+    margin-top: 3em;
+    margin-left: 24.5%;
+    width: 60%;
+
+ }
+ ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-between
+
+ }
+ li{
+     margin-right: 9px;
+     font-size: 19px;
+     font-weight: bold;
+     color: white;
+ }
+ li a
+ {
+     text-decoration: none;
+     cursor: pointer;
+     text-transform: capitalize;
+ }
+
